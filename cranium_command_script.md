@@ -1,411 +1,417 @@
-# Cranium Command Script
+# Cranium Command
 
-General Knowledge: All right, pinhead, listen up. Your job is to pilot this craft through a typical day's maneuvers without overstressing it. Remember, use your head, don't lose your head. I got my eye on you, Fuzzy. Screw up this mission and you'll be piloting a chicken 'til your retirement day. Got that?!
+## Script
+__General Knowledge__: All right, pinhead, listen up. Your job is to pilot this craft through a typical day's maneuvers without overstressing it. Remember, use your head, don't lose your head. I got my eye on you, Fuzzy. Screw up this mission and you'll be piloting a chicken 'til your retirement day. Got that?!
 
-static, then General Knowledge disappears
+_Static, then General Knowledge disappears._
 
-Buzzy: Uh, yes sir. Guess I better get this show on the road. Okay crew, report in. Left Brain, Right Brain! Come in, please.
+__Buzzy__: Uh, yes sir. Guess I better get this show on the road. Okay crew, report in. Left Brain, Right Brain! Come in, please.
 
-Hypothalamus: <in a bored, Ben Stein-like monotone> Yes, Captain? Did you call?
+__Hypothalamus__ (in a bored, Ben Stein-like monotone): Yes, Captain? Did you call?
 
-Buzzy: Uh, no. I ... guess I just pressed the wrong button.
+__Buzzy__: Uh, no. I ... guess I just pressed the wrong button.
 
-Hypothalamus: It figures. No one ever wants to talk to me.
+__Hypothalamus__: It figures. No one ever wants to talk to me.
 
-Buzzy: Who are you, anyway?
+__Buzzy__: Who are you, anyway?
 
-Hypothalamus: I'm only the hypothalamus. I only monitor all the automatic functions of the body. All the things you don't need to worry about. I'm used to being taken for granted. Blink, blink, breathe, breathe, day in, day out. Never a "Thank you," never a "Job well done."
+__Hypothalamus__: I'm only the hypothalamus. I only monitor all the automatic functions of the body. All the things you don't need to worry about. I'm used to being taken for granted. Blink, blink, breathe, breathe, day in, day out. Never a "Thank you," never a "Job well done."
 
-Buzzy: Gee, I'm sorry. I had no idea. Hey, wait a minute. What're all these things?
+__Buzzy__: Gee, I'm sorry. I had no idea. Hey, wait a minute. What're all these things?
 
-Hypothalamus: Dreams, sir. You're in the sleep mode. You should've had this in class.
+__Hypothalamus__: Dreams, sir. You're in the sleep mode. You should've had this in class.
 
-Buzzy: Hmmm. Looks pretty simple ...
+__Buzzy__: Hmmm. Looks pretty simple ...
 
-The alarm goes off to a radio station set to loud rock music, and Bobby opens his eyes. We can see his room.
+_The alarm goes off to a radio station set to loud rock music, and Bobby opens his eyes. We can see his room._
 
-Buzzy: Whoa! Whoa! What's going on?! What's happening?! Whoa! Oh, the alarm clock. Eyes, find the clock! Arms, hit it, hit it!
+__Buzzy__: Whoa! Whoa! What's going on?! What's happening?! Whoa! Oh, the alarm clock. Eyes, find the clock! Arms, hit it, hit it!
 
-Bobby shuts off the alarm.
+__Bobby shuts off the alarm.__
 
-Buzzy: <sigh of relief> Ahhh. Well, I guess we're awake now, huh? Good morning, guys.
+__Buzzy__: Ahhh. Well, I guess we're awake now, huh? Good morning, guys.
 
-Left Brain: <always businesslike and efficient> Morning, Captain. Left Brain reporting for duty, sir. Logic circuits working at full capacity. Let's have a safe and sane day, shall we?
+__Left Brain__ (always businesslike and efficient): Morning, Captain. Left Brain reporting for duty, sir. Logic circuits working at full capacity. Let's have a safe and sane day, shall we?
 
-Buzzy: Roger, Left Brain.
+__Buzzy__: Roger, Left Brain.
 
-Right Brain: <a groovy Flower Child> Right brain here, Buzz! Free association and creativity banks fully charged.
+__Right Brain__ (a groovy Flower Child): Right brain here, Buzz! Free association and creativity banks fully charged.
 
-Buzzy: Roger, dude.
+__Buzzy__: Roger, dude.
 
-Left Ventricle: <the body-building Franz from "Saturday Night Live"> Heart reporting, Captain. Left ventricle ...
+__Left Ventricle__ (the body-building Franz from "Saturday Night Live"): Heart reporting, Captain. Left ventricle ...
 
-Right Ventricle: <and his partner Hans> Right Ventricle!
+__Right Ventricle__ (the body-building Hans from "Saturday Night Live"): Right Ventricle!
 
-Both Left and Right Ventricles: We are on ... and pumping!
+__Both Left and Right Ventricles__: We are on ... and pumping!
 
-Adrenaline: <perpetually frazzled and hyper> Adrenal Gland reporting, Captain. Ready to freak out at any second!
+__Adrenaline__ (perpetually frazzled and hyper): Adrenal Gland reporting, Captain. Ready to freak out at any second!
 
-Buzzy: Not now, please.
+__Buzzy__: Not now, please.
 
-Stomach: <imagine Norm from "Cheers" at The Hungry Heifer Restaurant> Stomach reporting, Captain. Runnin' on empty down here. Suppose you could toss down some of those cold pizza crusts from last night? You could just, you know -
+__Stomach__ (imagine Norm from "Cheers" at The Hungry Heifer Restaurant): Stomach reporting, Captain. Runnin' on empty down here. Suppose you could toss down some of those cold pizza crusts from last night? You could just, you know -
 
-Bobby's Mother: Bobby, aren't you up yet? The bus'll be here any second.
+__Bobby's Mother__: Bobby, aren't you up yet? The bus'll be here any second.
 
-Bobby: Okay, Mom, I'm up.
+__Bobby__: Okay, Mom, I'm up.
 
-Buzzy: Okay, guys, we're running a little late. Legs, swing over forty-five degrees and extend peds. Head for the door. Walk vector ten.
+__Buzzy__: Okay, guys, we're running a little late. Legs, swing over forty-five degrees and extend peds. Head for the door. Walk vector ten.
 
-Left Brain: Going to school stark naked, are we? Puh-lease!
+__Left Brain__: Going to school stark naked, are we? Puh-lease!
 
-We can see Bobby's reflection in the mirror, from the waist up, and he's not wearing any clothes.
+_We can see Bobby's reflection in the mirror, from the waist up, and he's not wearing any clothes._
 
-Buzzy: Whoa! Quick! Let's find some clothes. There's gotta be something in here. Ah, good, pants. Uh, shirt's still okay, it's only been worn a couple of days. Shoes. All right, we're outta here.
+__Buzzy__: Whoa! Quick! Let's find some clothes. There's gotta be something in here. Ah, good, pants. Uh, shirt's still okay, it's only been worn a couple of days. Shoes. All right, we're outta here.
 
-Left Brain: Aren't we forgetting some ... functions?
+__Left Brain__: Aren't we forgetting some ... functions?
 
-Buzzy: Uh ... Elimination, give me a reading!
+__Buzzy__: Uh ... Elimination, give me a reading!
 
-Elimination: Uh, bladder reading at 9.9, sir.
+__Elimination__: Uh, bladder reading at 9.9, sir.
 
-Buzzy: We can hold it.
+__Buzzy__: We can hold it.
 
-Elimination: <Gets a horrified look and mouths "No! No!">
+__Elimination__: (Gets a horrified look and mouths "No! No!")
 
-Buzzy: Full speed ahead!
+__Buzzy__: Full speed ahead!
 
-Left Brain: I can see you're going to put us all under a bit of a strain today.
+__Left Brain__: I can see you're going to put us all under a bit of a strain today.
 
-Stomach: Captain, I know we're in a hurry, but this puppy's starting to growl down here, ya know what I mean?
+__Stomach__: Captain, I know we're in a hurry, but this puppy's starting to growl down here, ya know what I mean?
 
-Buzzy: I hear you, Stomach. Looks like we've got breakfast dead ahead. Let's chow down.
+__Buzzy__: I hear you, Stomach. Looks like we've got breakfast dead ahead. Let's chow down.
 
-Bobby's mother has prepared a huge breakfast for him.
+_Bobby's mother has prepared a huge breakfast for him._
 
-Right Brain: Guys! Let's go for the dessert!
+__Right Brain__: Guys! Let's go for the dessert!
 
-A horn is heard outside.
+_A horn honks outside._
 
-Bobby's Sister: Hey, Smarty-Pants, the bus is here.
+__Bobby's Sister__: Hey, Smarty-Pants, the bus is here.
 
-Stomach: Could've sworn I heard something about breakfast.
+__Stomach__: Could've sworn I heard something about breakfast.
 
-The bus honks twice more.
+_The bus honks twice more._
 
-Adrenaline: The bus!!
+__Adrenaline__: The bus!!
 
-Buzzy: Run for it!
+__Buzzy__: Run for it!
 
-Bobby proceeds to run like crazy toward the bus, dodging traffic.
+_Bobby proceeds to run like crazy toward the bus, dodging traffic._
 
-Man: Whoa! Bobby, would you watch where you're going?
+__Man__: Whoa! Bobby, would you watch where you're going?
 
-Another Man: Hey kid! Get off my car!
+__Another Man__: Hey kid! Get off my car!
 
-Buzzy: It's getting away! Quick! Take a shortcut.
+__Buzzy__: It's getting away! Quick! Take a shortcut.
 
-Left Brain: Planning an alternate route to school, sir. Memory indicates the presence of a small, rabid poodle -
+__Left Brain__: Planning an alternate route to school, sir. Memory indicates the presence of a small, rabid poodle -
 
-Poodle: Bark! Bark! Bark!
+__Poodle__: Bark! Bark! Bark!
 
-Buzzy: Whoa! Watch out! Back up!
+__Buzzy__: Whoa! Watch out! Back up!
 
-Adrenaline: I see it! Step on it! Step on it!
+__Adrenaline__: I see it! Step on it! Step on it!
 
-Buzzy: Quick! Cut through here.
+__Buzzy__: Quick! Cut through here.
 
-Bobby detours through a neighbor's house, passing a lady in her laundry room.
+_Bobby detours through a neighbor's house, passing a lady in her laundry room._
 
-Right Ventricle: Heart reporting, Captain, we are pumping!
+__Right Ventricle__: Heart reporting, Captain, we are pumping!
 
-Left Ventricle: Ja, but we're really low on energy.
+__Left Ventricle__: Ja, but we're really low on energy.
 
-Right Ventricle: What are you going to do about it?
+__Right Ventricle__: What are you going to do about it?
 
-Buzzy: Stomach, we need fuel! Do you read?
+__Buzzy__: Stomach, we need fuel! Do you read?
 
-Stomach: No can do, Captain. Remember that breakfast we didn't have?
+__Stomach__: No can do, Captain. Remember that breakfast we didn't have?
 
-Hypothalamus: Blood sugar is falling.
+__Hypothalamus__: Blood sugar is falling.
 
-Left Brain: You have exactly two seconds to get to class.
+__Left Brain__: You have exactly two seconds to get to class.
 
-Bobby is rushing through the school building.
+_Bobby is rushing through the school building._
 
-Buzzy: Cut to the right! Turn! <Bobby enters the Chemistry lab just as the bell rings, and Buzzy breathes a sigh of relief.> There's our desk.
+__Buzzy__: Cut to the right! Turn! (Bobby enters the Chemistry lab just as the bell rings, and Buzzy breathes a sigh of relief). There's our desk.
 
-Chemistry Teacher: Okay, my little ... monsters. Let's create.
+__Chemistry Teacher__: Okay, my little ... monsters. Let's create.
 
-Annie: Excuse me. Looks like we're gonna be lab partners.
+__Annie__: Excuse me. Looks like we're gonna be lab partners.
 
-Right Brain: Yes!
+__Right Brain__: Yes!
 
-Left Ventricle: Heart reporting, Captain. We have just skipped a beat.
+__Left Ventricle__: Heart reporting, Captain. We have just skipped a beat.
 
-Right Ventricle: Ja, what is going on up there?
+__Right Ventricle__: Ja, what is going on up there?
 
-Buzzy: She's beautiful!
+__Buzzy__: She's beautiful!
 
-Annie: Um, I'm new here. My name's Annie. What's yours?
+__Annie__: Um, I'm new here. My name's Annie. What's yours?
 
-Buzzy: Uh ... say something.
+__Buzzy__: Uh ... say something.
 
-Bobby: Uh ... B-b-beautiful. I mean, Bobby.
+__Bobby__: Uh ... B-b-beautiful. I mean, Bobby.
 
-Sensory Report: Contact. 6.5, Captain.
+__Sensory Report__: Contact. 6.5, Captain.
 
-Annie: Okay, Bobby. I'll measure; you mix. Left Brain: Careful, careful. Some of these compounds are not entirely stable.
+__Annie__: Okay, Bobby. I'll measure; you mix.
 
-Right Brain: I feel like an unstable compound whenever we look at her. This must be chemistry.
+__Left Brain__: Careful, careful. Some of these compounds are not entirely stable.
 
-Left Brain: Concentrate! This could be dangerous.
+__Right Brain__: I feel like an unstable compound whenever we look at her. This must be chemistry.
 
-Buzzy: Just imagine ...
+__Left Brain__: Concentrate! This could be dangerous.
 
-Song: Hey Venus, oh Venus, make my wish come true ...
+__Buzzy__: Just imagine ...
 
-Annie: Bobby, watch out!
+__Song__: Hey Venus, oh Venus, make my wish come true ...
 
-Buzzy: Whoa! Hands, get outta there! Feet! Stomp it! Stomp it! Put it out!
+__Annie__: Bobby, watch out!
 
-Left Brain: See? You put us in an explosive situation!
+__Buzzy__: Whoa! Hands, get outta there! Feet! Stomp it! Stomp it! Put it out!
 
-Adrenaline: I've never had to work this hard in my life.
+__Left Brain__: See? You put us in an explosive situation!
 
-Right Ventricle: Ja, what a loser Captain we have.
+__Adrenaline__: I've never had to work this hard in my life.
 
-Left Ventricle: Yeah, you're a pathetic girly-man.
+__Right Ventricle__: Ja, what a loser Captain we have.
 
-Right Ventricle: You're a girly-man, loser, and pathetic.
+__Left Ventricle__: Yeah, you're a pathetic girly-man.
 
-Stomach: Say now, Captain, I'd be willing to call it even if you could just toss a little bit of food into the old dumpster. Whaddya say?
+__Right Ventricle__: You're a girly-man, loser, and pathetic.
 
-By this time, Bobby has left Chemistry class, and it is now lunchtime.
+__Stomach__: Say now, Captain, I'd be willing to call it even if you could just toss a little bit of food into the old dumpster. Whaddya say?
 
-Buzzy: Okay, guys, this time we'll eat. I promise. <sees Annie in the cafeteria line> Wow, look. There she is.
-Annie: Oh, hi.
+_By this time, Bobby has left Chemistry class, and it is now lunchtime._
 
-Two bullies walk up to Annie.
+__Buzzy__: Okay, guys, this time we'll eat. I promise. (sees Annie in the cafeteria line) Wow, look. There she is.
 
-Rico: Hey look, Chad, it's the new girl.
+__Annie__: Oh, hi.
 
-Chad: She needs some company, huh, Rico?
+_Two bullies walk up to Annie._
 
-They begin messing up the food on Annie's tray.
+__Rico__: Hey look, Chad, it's the new girl.
 
-Annie: Come on, you guys ...
+__Chad__: She needs some company, huh, Rico?
 
-Buzzy: We've gotta help her!
+_They begin messing up the food on Annie's tray._
 
-Right Brain: We'll rescue her! We'll swing in on a vine, and take her to a desert island!
+__Annie__: Come on, you guys ...
 
-Left Brain: Nonsense. We'll simply explain to these ruffians the lasting negative ramifications of their delinquent behavioral tendencies.
+__Buzzy__: We've gotta help her!
 
-Buzzy: Okay, you take the helm, Left Brain.
+__Right Brain__: We'll rescue her! We'll swing in on a vine, and take her to a desert island!
 
-Left Brain: All right, Bobby, address them.
+__Left Brain__: Nonsense. We'll simply explain to these ruffians the lasting negative ramifications of their delinquent behavioral tendencies.
 
-Bobby: Ahem! Come now, gentlemen. I'm sure I needn't point out the negative impact in both social and academic dimensions of your Neanderthal tactics.
+__Buzzy__: Okay, you take the helm, Left Brain.
 
-The bullies turn their attention toward Bobby, grab him, and Adrenaline begins freaking out.
+__Left Brain__: All right, Bobby, address them.
 
-Bobby: I should point out that this will reflect very poorly on your citizenship record, and it'll look bad when you're not studying at the college of your choice!
+__Bobby__: Ahem! Come now, gentlemen. I'm sure I needn't point out the negative impact in both social and academic dimensions of your Neanderthal tactics.
 
-The bullies throw Bobby into a trash can.
+_The bullies turn their attention toward Bobby, grab him, and Adrenaline begins freaking out._
 
-Right Brain: You've got to give me a chance for revenge!
+__Bobby__: I should point out that this will reflect very poorly on your citizenship record, and it'll look bad when you're not studying at the college of your choice!
 
-Buzzy: Okay, Right Brain, go!
+_The bullies throw Bobby into a trash can._
 
-Bobby grabs something from the trash can and thrusts it into Chad's face. The food fight rapidly escalates.
+__Right Brain__: You've got to give me a chance for revenge!
 
-Right Brain: Ramming speed!
+__Buzzy__: Okay, Right Brain, go!
 
-Buzzy: Look out! Yeah, duck! Duck!
+_Bobby grabs something from the trash can and thrusts it into Chad's face. The food fight rapidly escalates._
 
-Adrenaline: FOOD FIGHT!!
+__Right Brain__: Ramming speed!
 
-Hypothalamus: I suppose you'll be wanting reflex dodge maneuvers, sensors on hypervigilence, and endorphin pain suppressors on maximum.
+__Buzzy__: Look out! Yeah, duck! Duck!
 
-Right Brain: Give me some action!
+__Adrenaline__: FOOD FIGHT!!
 
-Stomach: Hey Buzz! As long as you're tossing all that food around, why don't you toss some down here, eh?
+__Hypothalamus__: I suppose you'll be wanting reflex dodge maneuvers, sensors on hypervigilence, and endorphin pain suppressors on maximum.
 
-Buzzy: All right, Stomach, here you go, a burger with everything on it.
+__Right Brain__: Give me some action!
 
-Stomach: <screams> Alleluliah! <garbled>
+__Stomach__: Hey Buzz! As long as you're tossing all that food around, why don't you toss some down here, eh?
 
-Sensory Report: <garbled>
+__Buzzy__: All right, Stomach, here you go, a burger with everything on it.
 
-Buzzy: Watch it! Milk cartons launching, sector 4-D!
+__Stomach__: (screams) Alleluliah! (garbled)
 
-Right Brain: That's whole milk, too! These guys are serious!
+__Sensory Report__: (garbled)
 
-Stomach: Who took the bite out of it?
+__Buzzy__: Watch it! Milk cartons launching, sector 4-D!
 
-Sensory Report: Reload! Reload!
+__Right Brain__: That's whole milk, too! These guys are serious!
 
-Buzzy: Incoming lasagna at five o'clock. Dive! Dive! <garbled> Going down!
-static, and General Knowledge appears onscreen
+__Stomach__: Who took the bite out of it?
 
-General Knowledge: What the devil is going on, Drunky? Your job is to protect this body from unnecessary stress, not send it into a coma!
+__Sensory Report__: Reload! Reload!
 
-Buzzy: Well, the Left Brain wanted - but then the Adrenal Gland said - and the -
+__Buzzy__: Incoming lasagna at five o'clock. Dive! Dive! (garbled) Going down!
 
-General Knowledge: You can't just listen to every fool thing that comes into your head. That's why there's chaos in this body. Make decisions! Get this crew working together! You're just begging to pilot this chicken, aren't you, boy? <holds up a chicken>
+_Static, and General Knowledge appears onscreen._
 
-Buzzy: Y-yes, sir. I - I mean no, sir!
+__General Knowledge__: What the devil is going on, Drunky? Your job is to protect this body from unnecessary stress, not send it into a coma!
 
-General Knowledge: I'm warning you, Skunky!
+__Buzzy__: Well, the Left Brain wanted - but then the Adrenal Gland said - and the -
 
-Chicken: Cluck!
+__General Knowledge__: You can't just listen to every fool thing that comes into your head. That's why there's chaos in this body. Make decisions! Get this crew working together! You're just begging to pilot this chicken, aren't you, boy? (holds up a chicken)
 
-static, and General Knowledge disappears
+__Buzzy__: Y-yes, sir. I - I mean no, sir!
 
-Buzzy: I've gotta get my act together here. Okay, I'll do better. I'll use my head. He'll be proud of me. All right. Hands, wipe the eyes, please.
+__General Knowledge__: I'm warning you, Skunky!
 
-Bobby wipes the food off his eyes, and sees a teacher standing in front of him, covered with food.
+__Chicken__: Cluck!
 
-Teacher: Well, young man, perhaps a trip to the Principal's office will straighten you out.
+_Static, and General Knowledge disappears._
 
-Buzzy: Lose audio, I get the idea.
+__Buzzy__: I've gotta get my act together here. Okay, I'll do better. I'll use my head. He'll be proud of me. All right. Hands, wipe the eyes, please.
 
-Right Brain: We're gonna get the salt mines, I tell ya! The curtain! The big house! Maybe even prison!
+_Bobby wipes the food off his eyes, and sees a teacher standing in front of him, covered with food._
 
-Principal's voice: <to the two bullies> Six weeks detention. Out!
+__Teacher__: Well, young man, perhaps a trip to the Principal's office will straighten you out.
 
-Bobby passes the bullies on his way into the Principal's office. They glare at him.
+__Buzzy__: Lose audio, I get the idea.
 
-Right Brain: Six weeks?! Oh no. It'll be an eternity.
+__Right Brain__: We're gonna get the salt mines, I tell ya! The curtain! The big house! Maybe even prison!
 
-Stomach: How 'bout a last meal? Uh, it's kinda traditional.
+__Principal__ (to the two bullies): Six weeks detention. Out!
 
-Bobby is now in Principal Hardcase's office.
+_Bobby passes the bullies on his way into the Principal's office. They glare at him._
 
-Principal: Right. And what's your side of this?
+__Right Brain__: Six weeks?! Oh no. It'll be an eternity.
 
-Buzzy: Uh, stall for time. Shuffle feet. Uh, wring hands.
+__Stomach__: How 'bout a last meal? Uh, it's kinda traditional.
 
-Left Brain: We'll probably be put on suspension for this. We can kiss Harvard good-bye. No job. No upwardly mobile lifestyle. I hope you're proud of yourself, young man. You obviously have no need for logic whatsoever. Thank you so much, and good night.
+_Bobby is now in Principal Hardcase's office._
 
-Lungs: Lungs reporting, sir! We're hyperventilating! Batten down the bronchial tubes!
+__Principal__: Right. And what's your side of this?
 
-Left Brain: I recommend a brown paper bag.
+__Buzzy__: Uh, stall for time. Shuffle feet. Uh, wring hands.
 
-Hypothalamus: CO2 is dropping fast.
+__Left Brain__: We'll probably be put on suspension for this. We can kiss Harvard good-bye. No job. No upwardly mobile lifestyle. I hope you're proud of yourself, young man. You obviously have no need for logic whatsoever. Thank you so much, and good night.
 
-Right Brain: Oh, I'm feelin' really light-headed, man.
+__Lungs__: Lungs reporting, sir! We're hyperventilating! Batten down the bronchial tubes!
 
-Left Ventricle: Listen to us now and believe us later. If we were 30 years older, we'd be attacking you right now.
+__Left Brain__: I recommend a brown paper bag.
 
-Right Ventricle: Ja, if we live that long.
+__Hypothalamus__: CO2 is dropping fast.
 
-Adrenaline: Aaaaaaaaaaaaaaaaagh!
+__Right Brain__: Oh, I'm feelin' really light-headed, man.
 
-Stomach: Sorry, Captain. We can't take much more of this. I'm gonna have to send some back up. <begins to toss food back up>
+__Left Ventricle__: Listen to us now and believe us later. If we were 30 years older, we'd be attacking you right now.
 
-Buzzy: No, don't! Seal all exits! Seal all exits!
+__Right Ventricle__: Ja, if we live that long.
 
-static, and General Knowledge appears onsceen
+__Adrenaline__: Aaaaaaaaaaaaaaaaagh!
 
-General Knowledge: What in blazes are you up to now?!
+__Stomach__: Sorry, Captain. We can't take much more of this. I'm gonna have to send some back up (begins to toss food back up).
 
-Buzzy: I might as well say good-bye now, sir. They're gonna burn as at the stake and send our ashes to Siberia.
+__Buzzy__: No, don't! Seal all exits! Seal all exits!
 
-General Knowledge: Nonsense, Pinky. You're just worrying yourself sick. Real stress or imagined stress, it doesn't matter beans to your body crew. They can't tell the difference, only you can. Take charge, lunkhead! Be calm, cool, collected, serene, balanced, centered, and relaxed. Like ME!!
+_Static, and General Knowledge appears onsceen._
 
-static, and General Knowledge disappears
+__General Knowledge__: What in blazes are you up to now?!
 
-Buzzy: Now hear this! Quiet!! Look, guys, this isn't the end of the world, okay? Now let's cooperate for once. Left Brain?
+__Buzzy__: I might as well say good-bye now, sir. They're gonna burn as at the stake and send our ashes to Siberia.
 
-Left Brain: Yes sir?
+__General Knowledge__: Nonsense, Pinky. You're just worrying yourself sick. Real stress or imagined stress, it doesn't matter beans to your body crew. They can't tell the difference, only you can. Take charge, lunkhead! Be calm, cool, collected, serene, balanced, centered, and relaxed. Like ME!!
 
-Buzzy: Give me the bottom line.
+_Static, and General Knowledge disappears._
 
-Left Brain: Run.
+__Buzzy__: Now hear this! Quiet!! Look, guys, this isn't the end of the world, okay? Now let's cooperate for once. Left Brain?
 
-Buzzy: Right Brain?
+__Left Brain__: Yes sir?
 
-Right Brain: Do what you really feel.
+__Buzzy__: Give me the bottom line.
 
-Buzzy: I've got a solution that covers both. We're going to tell the truth.
+__Left Brain__: Logic.
 
-Bobby: I'm sorry, Mr. Hardcase. When I saw those guys bugging Annie, I - I guess I just lost my head.
+__Buzzy__: Right Brain?
 
-Principal: I think we can be a little lenient here. Why don't you just help the janitor clean up the cafeteria after school?
+__Right Brain__: Do what you really feel.
 
-Bobby: Really? Boy, thank you, sir. Thanks a lot.
+__Buzzy__: I've got a solution that covers both. We're going to tell the truth.
 
-Principal: Right, right, right. Get outta here. Go on.
+__Bobby__: I'm sorry, Mr. Hardcase. When I saw those guys bugging Annie, I - I guess I just lost my head.
 
-Left Brain: Well done, Buzzy: Wonderfully logical.
+__Principal__: I think we can be a little lenient here. Why don't you just help the janitor clean up the cafeteria after school?
 
-Right Brain: It felt <garbled>. It was beautiful.
+__Bobby__: Really? Boy, thank you, sir. Thanks a lot.
 
-Buzzy: Yeah, we're starting to get the hang of it now. What with a little teamwork, we'll become invincible.
+__Principal__: Right, right, right. Get outta here. Go on.
 
-Sensory Report: Warning! Warning! You've been tapped on the shoulder. Warning! Warning!
+__Left Brain__: Well done, Buzzy: Wonderfully logical.
 
-Adrenaline: It's a ghost!!!!
+__Right Brain__: It felt glorious. It was beautiful.
 
-Buzzy: Adrenaline, would you chill out?! You're getting everybody all worked up. Just keep cool, guys, and stand by for instructions. Come full about.
+__Buzzy__: Yeah, we're starting to get the hang of it now. What with a little teamwork, we'll become invincible.
 
-Bobby turns around and sees Annie.
+__Sensory Report__: Warning! Warning! You've been tapped on the shoulder. Warning! Warning!
 
-Annie: Hi Bobby.
+__Adrenaline__: It's a ghost!!!!
 
-Bobby: <sigh of relief>
+__Buzzy__: Adrenaline, would you chill out?! You're getting everybody all worked up. Just keep cool, guys, and stand by for instructions. Come full about.
 
-Annie: Look, um, I just wanted to thank you for helping me out with those guys who were hassling me.
+_Bobby turns around and sees Annie._
 
-Buzzy: No sweat.
+__Annie__: Hi Bobby.
 
-Bobby: No sweat.
+__Bobby__: (sigh of relief)
 
-Annie: You were like ... pretty neat.
+__Annie__: Look, um, I just wanted to thank you for helping me out with those guys who were hassling me.
 
-Buzzy: Golly, she likes us.
+__Buzzy__: No sweat.
 
-Right Ventricle: Captain, we are having a sudden burst of energy.
+__Bobby__: No sweat.
 
-Left Ventricle: Ja, we are feeling young at heart.
+__Annie__: You were like ... pretty neat.
 
-Stomach: Hey, who ordered the butterflies?
+__Buzzy__: Golly, she likes us.
 
-Right Brain: Ooh man, she's cute. Just look at the way her eyes glisten in that fluorescent tube lighting.
+__Right Ventricle__: Captain, we are having a sudden burst of energy.
 
-Left Brain: Oh, let's not start daydreaming again. Let's do something constructive.
+__Left Ventricle__: Ja, we are feeling young at heart.
 
-Buzzy: Tell you what. We'll ask her out.
+__Stomach__: Hey, who ordered the butterflies?
 
-Left Brain: Bold move, sir.
+__Right Brain__: Ooh man, she's cute. Just look at the way her eyes glisten in that fluorescent tube lighting.
 
-Bobby: Maybe we could go out sometime after school, like maybe to the mall or something?
+__Left Brain__: Oh, let's not start daydreaming again. Let's do something constructive.
 
-Annie: Okay. That'd be great. Thanks again, Bobby. <smiles at Bobby, kisses him, and walks away with glee>
+__Buzzy__: Tell you what. We'll ask her out.
 
-wild applause and cheers from the crew members, and General Knowledge appears onscreen
+__Left Brain__: Bold move, sir.
 
-General Knowledge: Outstanding, recruit! Look after your body crew, and they'll serve you well. Congratulations. You are now a full-fledged member of the Cranium Command! I'm proud of you, boy!
+__Bobby__: Maybe we could go out sometime after school, like maybe to the mall or something?
 
-Buzzy: Thanks, General! I never could've done it without everyone's help. This is one first rate crew.
+__Annie__: Okay. That'd be great. Thanks again, Bobby(smiles at Bobby, kisses him, and walks away with glee).
 
-Hypothalamus: No need to thank me, sir. I don't do it for the glory. It's just my function.
+_Wild applause and cheers from the crew members, and General Knowledge appears onscreen._
 
-General Knowledge: Well, Chicken, what're we gonna do about a pilot for you?
+__General Knowledge__: Outstanding, recruit! Look after your body crew, and they'll serve you well. Congratulations. You are now a full-fledged member of the Cranium Command! I'm proud of you, boy!
 
-Chicken: Cluck! I don't need one. I'm going into politics.
+__Buzzy__: Thanks, General! I never could've done it without everyone's help. This is one first rate crew.
 
-General Knowledge: Heh. Politics. So long, Buzzy! Keep up the good work!
+__Hypothalamus__: No need to thank me, sir. I don't do it for the glory. It's just my function.
 
-static, and General Knowledge disappears
+__General Knowledge__: Well, Chicken, what're we gonna do about a pilot for you?
 
-Right Brain: Let's hear it for Captain Buzzy!
+__Chicken__: Cluck! I don't need one. I'm going into politics.
 
-All: Hip, hip, hooray!
+__General Knowledge__: Heh. Politics. So long, Buzzy! Keep up the good work!
 
-Buzzy: Now remember, gang. If you get stressed out, just call on your general knowledge, balance your body crew, and get your cranium under command. Use your head, don't lose your head. You need it! You'll be flying in no time ... as a member of the Cranium Command! Bye!
+_Static, and General Knowledge disappears._
 
-Hypothalamus: On behalf of the Cranium Commandos, Metropolitan Life, and the Walt Disney Company, thank you for volunteering for Cranium Command. Please gather your belongings and exit the command center through the doors on your left. ... Madame, you forgot your child. Oh. That's your husband. I'm very sorry. I mean that. ​
+__Right Brain__: Let's hear it for Captain Buzzy!
 
-Disclaimer: It's General Knowledge that the above attraction is the property of the Walt Disney Company. ​
+__All__: Hip, hip, hooray!
+
+__Buzzy__: Now remember, gang. If you get stressed out, just call on your general knowledge, balance your body crew, and get your cranium under command. Use your head, don't lose your head. You need it! You'll be flying in no time ... as a member of the Cranium Command! Bye!
+
+__Hypothalamus__: On behalf of the Cranium Commandos, Metropolitan Life, and the Walt Disney Company, thank you for volunteering for Cranium Command. Please gather your belongings and exit the command center through the doors on your left. ... Madame, you forgot your child. Oh. That's your husband. I'm very sorry. I mean that. ​
+
+## Disclaimer
+The above attraction is the property of the Walt Disney Company. ​
