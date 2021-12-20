@@ -1,6 +1,5 @@
 # Cranium Command
 
-## Script
 __General Knowledge__: All right, pinhead, listen up. Your job is to pilot this craft through a typical day's maneuvers without overstressing it. Remember, use your head, don't lose your head. I got my eye on you, Fuzzy. Screw up this mission and you'll be piloting a chicken 'til your retirement day. Got that?!
 
 _Static, then General Knowledge disappears._
