@@ -26,7 +26,7 @@ _The alarm goes off to a radio station set to loud rock music, and Bobby opens h
 
 __Buzzy__: Whoa! Whoa! What's going on?! What's happening?! Whoa! Oh, the alarm clock. Eyes, find the clock! Arms, hit it, hit it!
 
-__Bobby shuts off the alarm.__
+_Bobby shuts off the alarm._
 
 __Buzzy__: Ahhh. Well, I guess we're awake now, huh? Good morning, guys.
 

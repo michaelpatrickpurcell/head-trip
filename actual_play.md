@@ -1,14 +1,25 @@
+# Actual Play Example
+
+## Act 1: Bobby's Bedroom
 __GM__: Bobby's alarm goes off to a radio station set to loud rock music. Bobby opens his eyes. He is in his bedroom.
+
+_The GM is introduces the setting and presents a mild stressor for the Pilot and Body to deal with._
 
 __Pilot__: Body, turn off the alarm.
 
 __Body__: Done.
 
+_The Pilot wants to deal with the stressor introduced by the GM. So far, the situation isn't very stressful and the Pilot is easily able to get the Body to cooperate._
+
 __Pilot__: Can I get a status report?
 
 __Body__: Logic circuits working at full capacity. Free association and creativity banks fully charged. Heart pumping.  Stress levels are a still a bit elevated from that rude awakening. Fuel reserves are low, how about some breakfast?
 
+_The Pilot doesn't have direct access to the mechanical description of how Bobby is doing at any given time in the game. While the Body does have direct access to this information, the Body can only discuss how Bobby is doing in fairly vague narrative terms rather than in explicit mechanical terms._
+
 __GM__: Bobby's mom knocks on the the door. She yells "Bobby, aren't you up yet? The bus'll be here any second."
+
+_The GM introduces another stressor and prompts the Pilot and the Body to get moving._
 
 __Pilot__: OK, time to go. Let's move!
 
@@ -16,25 +27,41 @@ __Body__: Not so fast. We've got some basic maintenance to perform here. Bladder
 
 __Pilot__: No time, it'll have to wait until we get to school.
 
+_Things are getting a bit more stressful here.  The Pilot tries to respond to the stressor introduced by the GM but the Body objects. The Pilot is able to convince the body to cooperate, but at the cost of increased stress going forward._
+
 __GM__: A horn honks outside. Bobby's sister says "Hey smarty-pants, the bus is here".
+
+_The GM ratchets up the tension another notch by introducing an additional stressor._
 
 __Pilot__: Let's go.
 
 __Body__: What about breakfast?
 
+_The Pilot attempts to respond to the GM's most recent stressor, but the Body still wants to try to address the stress that has already accumulated._
+
 __GM__: Bobby's mom has laid out a nice breakfast on the kitchen table.  It's gotten a bit cold, but it still smells delicious.
 
-__Pilot__: We'll grab something on the way out.  
+_The GM presents the Pilot and Body with a choice. Spend some time to eat breakfast, which would guarantee that Bobby will be late for school, or skip breakfast, which would guarantee that Bobby will be hungry until he gets a chance to eat later in the day._
 
-__GM__: Bobby gets outside just in time to see the bus pulling away. This is the third time this month that he's missed the bus. If he's late again, he's going to get detention.
+__Pilot__: We'll grab something on the way out.
+
+_The Pilot decides that both choices are unappealing and instead challenges the GM to raise the stakes._
+
+__GM__: Bobby gets outside just in time to see the bus disappear around the corner. This is the third time this month that he's missed the bus. If he's late for school, he's going to get detention.
+
+_The GM accepts the challenge and raises the stakes by introducing a new stressor._
 
 __Pilot__: Run for it!
 
 __Body__: I can see you're going to put us all under a bit of a strain today. Initiating fight-or-flight response.
 
-__GM__: Bobby gets to school with mere seconds to spare.  He collapses into his seat just before the final bell rings.
+_The Pilot and Body work together to try to get to school on foot as fast as possible._
 
----
+__GM__: Bobby gets to school with mere seconds to spare.  He slides into his seat just before the final bell rings.
+
+_The Pilot and the Body succeed. They manage to deal with the stressors that the GM introduced throughout Act 1 and get Bobby to school both on time and well fed. The GM brings the scene to a close._
+
+## Act 2: Chemistry Class
 
 __GM__: Bobby's  first class today is chemistry. It looks like the lesson plan calls for some laboratory work with a partner. After taking the roll, the teacher says "OK my little ... monsters, let's create".  Bobby's partner turns to him and says "Um, I'm new here. My name's Annie. What's yours?"
 
@@ -60,7 +87,7 @@ __Body__: Sorry sir, we got distracted there for a minute.  All system are still
 
 __Pilot__: It will have to wait until lunchtime. We've still got a few more classes between now and then.
 
----
+## Act 3: The Cafeteria
 
 __GM__: Bobby makes it through the rest of the morning without incident. He finds himself in the cafeteria line behind Annie. She sees Bobby, smiles, and says, "Oh, hi!"
 
@@ -104,7 +131,7 @@ __GM__: The principal tries to suppress a smile and says "I think we can be a li
 
 __Pilot__: OK, it looks like we dodged a bullet there.  Lunchtime will be over soon and we need to get to class.
 
----
+## Act 4: Hallway
 
 __GM__: On the way to class, Bobby runs into Annie in the hall.  She says "Look, um, I just wanted to thank you for helping me out with those guys who were hassling me".
 
