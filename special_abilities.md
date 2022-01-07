@@ -6,4 +6,4 @@
 
   - __Genius__: Add a mental risk/reward to physical or social checks.
 
-  - __Student__: Guarantee success on any check if the proposed actino is informed by a previous failure.
+  - __Student__: Guarantee success on any check if the proposed action is informed by a previous failure.
