@@ -5,6 +5,6 @@
 See the [rules leaflet](head_trip.pdf) for a version of the rules that can be printed and folded to create a tri-fold leaflet.
 
 ## Inspirations
-  - __Cranium Command__: A theme park attraction that presented in the Wonders of Life pavilion at Walt Disney World Resort's EPCOT theme park from 19 October 1989 until 01 January 2007.
-  - __Herman's Head__: An American television show that aired on the Fox network from 08 September 1991 until 21 April 1994.
+  - __Cranium Command__: A theme park attraction that presented in the Wonders of Life pavilion at Walt Disney World Resort's EPCOT theme park from 1989 -- 2007.
+  - __Herman's Head__: An American television show that aired on the Fox network from 1991 -- 1994.
   - __Inside Out__: A feature-length animated film created by Pixar that was released in 2015.
