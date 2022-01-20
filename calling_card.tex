@@ -1,0 +1,17 @@
+\documentclass{standalone}
+
+\usepackage{tikz}
+\usepackage{fontspec}
+
+\setmainfont[Scale=2.8]{Clarendon-Bold}
+\newcommand\headtrip{\begin{tabular}{c@{\hspace{0.25ex}}l@{\hspace{0.05ex}}c@{\hspace{0.25ex}}l}
+\huge{H} & \huge{\textcolor{red}{E}} & \huge{A} & \huge{\textcolor{red}{D}} \\[0.5ex]
+\huge{\textcolor{red}{T}} & \huge{R} & \huge{\textcolor{red}{I}} & \huge{P}
+\end{tabular}}
+
+\begin{document}
+\begin{tikzpicture}
+	\path (-4.5,-2.5) rectangle (4.5, 2.5);
+	\node () at (0,0) {\headtrip};
+\end{tikzpicture}
+\end{document}
