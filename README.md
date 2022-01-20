@@ -1,5 +1,5 @@
 # Head Trip
- A game for four players that is played with two decks of cards. During the game, each player will portray an aspect of the personality of a teenage boy. Only one aspect can control Bobby's actions at any given time, so the the players will have to compete for control as he faces a series of challenges.
+ A game for four players that is played with two standard decks of playing cards. During the game, each player will portray an aspect of the personality of a teenage boy. Only one aspect can control Bobby's actions at any given time, so the the players will have to compete for control as he faces a series of challenges.
 
 ## Downloads
 See the [rules leaflet](head_trip.pdf) for a version of the rules that can be printed and folded to create a tri-fold leaflet.
