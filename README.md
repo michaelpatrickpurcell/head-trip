@@ -8,3 +8,4 @@ See the [rules leaflet](head_trip.pdf) for a version of the rules that can be pr
   - __Cranium Command__: A theme park attraction that presented in the Wonders of Life pavilion at Walt Disney World Resort's EPCOT theme park from 1989 -- 2007.
   - __Herman's Head__: A television show that aired on the Fox television network from 1991 -- 1994.
   - __Inside Out__: A feature-length animated film created by Pixar that was released in 2015.
+  - __Everyone is John__: A humorous, competitive roleplaying game created by Michael B. Sullivan in 2002.
