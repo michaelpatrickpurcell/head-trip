@@ -40,19 +40,8 @@
 
 % Setting Fonts
 \usepackage{fontspec}
-%\setmainfont{XCharter}
-\renewfontfamily\sectfont{Clarendon-Bold}
-
-% Horrible hack to get small caps to work with Clarendon-Bold font.
-\newcommand\fauxsc[1]{\fauxschelper#1 \relax\relax}
-\def\fauxschelper#1 #2\relax{%
-  \fauxschelphelp#1\relax\relax%
-  \if\relax#2\relax\else\ \fauxschelper#2\relax\fi%
-}
-\def\fauxschelphelp#1#2\relax{%
-  \ifnum`#1=\lccode`#1\relax\large{\char\uccode`#1}\else%
-    \Large{#1}\fi%
-  \ifx\relax#2\relax\else\fauxschelphelp#2\relax\fi}
+%\renewfontfamily\sectfont{Clarendon-Bold}
+\renewfontfamily\sectfont[UprightFont={* 176 Bold}]{Libre Clarendon Wide}
 
 % Macros for symbols that appear on playing cards
 \newfontfamily\cardfont{Card Characters}[Scale=1.0]
@@ -149,13 +138,23 @@
 % Cover page with title, cover art, description, and author
 \center{\setmainfont{XCharter}}
 {\footnotesize{Version 0.1}}
-\setmainfont[Scale=2.8]{Clarendon-Bold}
+%\setmainfont[Scale=2.8]{Clarendon-Bold}
+%\begin{center}
+%\begin{tabular}{c@{\hspace{0.35ex}}l@{\hspace{0.05ex}}c@{\hspace{0.4ex}}l}
+%\huge{H} & \huge{\textcolor{red}{E}} & \huge{A} & \huge{\textcolor{red}{D}} \\[0.5ex]
+%\huge{\textcolor{red}{T}} & \huge{R} & \huge{\textcolor{red}{I}} & \huge{P}
+%\end{tabular}
+%\end{center}
+%
+\setmainfont[Scale=3.66]{Libre Clarendon Normal}
+{\bfseries
 \begin{center}
-\begin{tabular}{c@{\hspace{0.25ex}}l@{\hspace{0.05ex}}c@{\hspace{0.25ex}}l}
+\begin{tabular}{@{}c@{\hspace{0.375ex}}l@{}c@{\hspace{0.375ex}}l@{}}
 \huge{H} & \huge{\textcolor{red}{E}} & \huge{A} & \huge{\textcolor{red}{D}} \\[0.5ex]
 \huge{\textcolor{red}{T}} & \huge{R} & \huge{\textcolor{red}{I}} & \huge{P}
 \end{tabular}
 \end{center}
+}
 
 \vfill
 
@@ -186,7 +185,7 @@ designed by Michael Purcell
 \setmainfont{XCharter}
 \raggedright
 \section{Overview}
-{\setmainfont{Clarendon-Light} HEAD TRIP} is a game for four players that is played with two decks of cards. During the game, each player will portray an \emph{aspect} of the personality of a teenage boy named Bobby.
+Head Trip is a game for four players that is played with two decks of cards. During the game, each player will portray an \emph{aspect} of the personality of a teenage boy named Bobby.
 \begin{playerlist}
 	\item[\jack\clubs\ (The Animal):] represents Bobby's physicality.
 	\item[\redqueen\hearts\ (The Angel):] represents Bobby's compassion.
@@ -199,12 +198,12 @@ So, the players will have to compete for control as Bobby faces a series of chal
 
 To determine the outcome of each challenge, the pilot will add a card to the \emph{tableau}. The outcome of the challenge is determined by the rank of that card. 
  
-There are three types of challenges: \clubs\ (physical), \hearts~(social), and \spades\ (mental). Different aspects receive different rewards when Bobby succeeds or fails at the various types of challenges.
+There are three types of challenges: \clubs\ (physical), \hearts~(social), and \spades\ (mental). Different aspects receive different rewards depending on the outcomes of the various types of challenges.
 
 
 The players with the highest scores at the end of the game are the winners.
 
-\subsection{The Cards}
+\subsection{The\ \ Cards}
 The \emph{persona deck} is a complete (54 cards) standard deck of playing cards. It consists of:
 \begin{personadecklist}
 	\item[Action Cards\hfill\normalfont{(36):}] all \two\ \textendash\ \ten\ cards.
@@ -212,7 +211,7 @@ The \emph{persona deck} is a complete (54 cards) standard deck of playing cards.
 	\item[Recall Cards\hfill\normalfont{(2):}] all \joker\ (joker) cards.
 \end{personadecklist}
 
-The \emph{auxiliary deck} is a subset (34 cards) of a standard deck of cards. It consists of:
+The \emph{auxiliary deck} is a subset (34 cards) of a standard deck of playing cards. It consists of:
 \begin{auxiliarydecklist}
 	\item[Challenge Cards\hfill\normalfont{(27):}] \two\ \textendash\ \ten\ of \clubs, \hearts, \spades.
 	\item[Aspect Cards\hfill\normalfont{(4):}] \jack\clubs, \queen[red]\hearts[red], \king\spades, \ace[red]\diamonds[red].
@@ -223,7 +222,7 @@ It may be useful to use decks with different coloured backs or decks of differen
 
 \newpage
 
-\subsection{The Tableau}
+\subsection{The\ \ Tableau}
 The tableau represents Bobby's long-term memory.
 It is the part of the play area where the pilot plays an action card when Bobby faces a challenge.
 It consists of three rows of cards, one for each type of challenge.
@@ -266,7 +265,7 @@ At the beginning of the game, the tableau is empty. A label card is used to indi
 During the game, cards will be added to the tableau.
 At the end of the game, the state of the tableau will be used to compute the players' scores.
 
-\section{Set Up}
+\section{Set\ \ Up}
 To prepare to play the game the players should:
 \begin{enumerate}
 \item Place the label cards face up in the middle of the play area to indicate the location of the tableau.
@@ -280,7 +279,7 @@ The Student is the starting pilot.
 
 \newpage
 
-\section{Game Play}
+\section{Game\ \ Play}
 The game takes place over a sequence of rounds.
 During each round:
 \begin{enumerate}
@@ -291,13 +290,13 @@ During each round:
 \end{enumerate}
 The game ends when any player plays their last action card or after Bobby faces the last challenge.
 
-\subsection{Playing an Action Card}
+\subsection{Playing\ \ an\ \ Action\ \ Card}
 The pilot must add one action card to the tableau.
 If the rank of the pilot's card meets or exceeds the rank of the challenge card, then Bobby succeeds. Otherwise, Bobby fails.
 
 The pilot's card is added to the tableau in the row corresponding to the suit of the challenge card. If Bobby succeeds, then the pilot's card is played face up.  Otherwise, their card is played face down. 
 
-\subsection{Electing a Pilot}
+\subsection{Electing\ \ a\ \  Pilot}
 Each player must vote for an aspect by turning their corresponding voting card face up.
 The aspect who receives the most votes wins the election. 
 
@@ -318,7 +317,7 @@ The players with the highest scores win the game.
 
 
 
-\section{Example of Play}
+\section{Example\ \ of \ \ Play}
 The following is a description of a single round of play. The~Genius is the current pilot.
 
 \begin{enumerate}
@@ -388,44 +387,22 @@ After this round The Student and The~Angel both have three points, The Animal ha
 
 \end{enumerate}
 
-%\subsection{Boss Battle}
-%The players can agree to have Bobby face an additional challenge at the end of the game. If Bobby fails this final challenge, then none of the players score any points and no one can win the game.
-%
-%When facing this final challenge, however, all of the aspects may contribute an action card.
-%
-%If the sum of the contributed cards meets or exceeds the rank of the final challenge card, then Bobby succeeds. Otherwise, Bobby fails.
-%
-%The players should use the next challenge card for Bobby to face as the final challenge. If the basic game ended because Bobby faced the last challenge, then the players should choose a random challenge card for Bobby to face as the final challenge.
-%
-%If the basic game ended because a player ran out of action cards, then that player will not be able to contribute to the final challenge.
-
-
-
-%
-%\subsection{Asymmetric Powers}
-%Test
-%
-%\subsection{Boss Battle}
-%Test
-%
 \newpage
+
 \section{Variants}
 There are several variants of the basic game that experienced players may want to explore. These variants add some additional complexity to the game and allow for more strategic play.
 
-\subsection{Multi-game Sessions}
+\subsection{Multi-game\ \ Sessions}
 The players can agree to play several games in a single session and combine their scores in the individual games to compute a single overall \emph{session score}.
 
 Each player's session score is the sum of the player's scores in the individual games. The players with the highest session scores win.
 	
-\subsection{Aspect Affinities} 
+\subsection{Aspect\ \ Affinities} 
 The players can agree to allow players to add two cards to the tableau when the suit of the challenge card matches that of the pilot.
 
 If the sum of the ranks of the two cards meets or exceeds the rank of the challenge card, then Bobby succeeds. Otherwise, Bobby fails.
 
 \section{Acknowledgements}
-%The design of {\setmainfont{Clarendon-Light}{HEAD TRIP}} has been vastly improved by the influence of ideas and mechanics from other games and the feedback provided by playtesters.
-%
-%\subsection{Contributors}
 The following people made significant contributions throughout the design process:
 \vspace{-1.75ex}
 \begin{multicols}{2}
@@ -447,30 +424,13 @@ The following people made significant contributions throughout the design proces
 \end{itemize}
 \end{multicols}
 
-%\subsection{Influences}
-%The theme of {\setmainfont{Clarendon-Light} HEAD TRIP} was strongly influenced by several icons of popular culture. These include:
-%\begin{description}
-%	\item[Inside Out\normalfont{:}] A feature-length animated Pixar film that was released in 2015.
-%	\item[Herman's Head\normalfont{:}] A television series that aired on the Fox television network from 1991 to 1994.
-%	\item[Cranium Command\normalfont{:}] An attraction at Walt Disney World's Epcot theme park from 1989 to 2007.
-%\end{description}
-%
-%The idea of players portraying the various aspects of a character's personality in a game has is also well established. Notable examples include:
-%\begin{description}
-%	\item[Everyone is John\normalfont{:}] A competitive roleplaying game created by Michael B. Sullivan in 2002.
-%	\item[Bluebeard's Bride\normalfont{:}] An investigatory horror roleplaying game created by Marissa Kelly in 2017. 
-%\end{description}
-
-\subsection{Design Tools}
+\subsection{Design\ \ Tools}
 The following tools were used to create this leaflet:
 \begin{description}[itemsep=0pt]
-%	\item[XeLaTeX:] Typesetting and layout.
-%	\item[TikZ:] Diagrams and art.
 	\item[Typesetting\normalfont{:}] XeLaTeX.
-	\item[Diagrams\normalfont{:}] TikZ and GIMP.
-	\item[Fonts\normalfont{:}] Clarendon, XCharter, and Card Characters.
+	\item[Diagrams\normalfont{:}] TikZ, GIMP.
+	\item[Fonts\normalfont{:}] Libre Clarendon, XCharter, Card~Characters.
 \end{description}
-%Fonts: Clarendon, Charter, and Card Characters.
 
 \vfill
 
