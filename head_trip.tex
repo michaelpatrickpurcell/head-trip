@@ -41,7 +41,7 @@
 
 % Setting Fonts
 \usepackage{fontspec}
-\renewfontfamily\sectfont{Clarendon-Bold}
+\renewfontfamily\sectfont[UprightFont={*-Black}]{Charter}%Clarendon-Bold}
 %\renewfontfamily\sectfont[UprightFont={* 176 Bold}]{Libre Clarendon Wide}
 
 % Macros for symbols that appear on playing cards
@@ -137,7 +137,7 @@
 
 \begin{document}
 % Cover page with title, cover art, description, and author
-\center{\setmainfont{XCharter}}
+\center{\setmainfont{Charter}}
 {\footnotesize{Version 0.1}}
 \setmainfont[Scale=2.8]{Clarendon-Bold}
 \begin{center}
@@ -172,7 +172,7 @@
 
 \vfill
 
-\setmainfont[Scale=1.5]{XCharter}
+\setmainfont[Scale=1.5]{Charter}
 \begin{center}
 A card game for four players
 
@@ -183,7 +183,7 @@ designed by Michael Purcell
 
 \newpage
 
-\setmainfont{XCharter}
+\setmainfont{Charter}
 \raggedright
 \section{Overview}
 Head Trip is a game for four players that is played with two decks of cards. During the game, each player will portray an \emph{aspect} of the personality of a teenage boy named Bobby.
@@ -427,17 +427,17 @@ The following people made significant contributions throughout the design proces
 
 \subsection{Design Tools}
 The following tools were used to create this leaflet:
-\begin{description}[itemsep=0pt, leftmargin=0.25cm]
+\begin{description}[labelindent = 0.25cm, itemsep=0pt, leftmargin=0.25cm]
 	\item[Typesetting\normalfont{:}] XeLaTeX.
 	\item[Diagrams\normalfont{:}] TikZ, GIMP.
-	\item[Fonts\normalfont{:}] Clarendon-Bold, XCharter, Card~Characters.
+	\item[Fonts\normalfont{:}] Clarendon-Bold, Charter, Card~Characters.
+%	\phantom{\textbf{Fonts}:}\hspace{\itemindent}Card~Characters.
 \end{description}
-
 \vfill
-
 \textbf{Contact}: \href{mailto:head.trip.card.game@gmail.com}{head.trip.card.game@gmail.com}
 
 \smallskip
+
 \begin{tabular}{@{}m{\textwidth-\widthof{\Huge{\doclicenseIcon}}}@{}m{\widthof{\Huge{\doclicenseIcon}}}@{}}
 \footnotesize{This work is licensed under a Creative Commons\newline ``Attribute 4.0 International'' license.} & \Huge{\doclicenseIcon} \\
 \end{tabular}
