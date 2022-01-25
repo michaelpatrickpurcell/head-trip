@@ -125,7 +125,14 @@
 
 
 \tikzset{cardback/.pic={
-	\node[draw, thick, minimum height=12.25mm, minimum width=8.75mm, rounded corners=1mm, pattern=crosshatch, pattern color=blue] (border) at (0,0) {};
+	% The card back design uses the tikzlibrary patterns.
+	% Unfortunately, XeLaTeX and LuaLaTeX don't play nicely
+	% with that library. Fortunately, pdflatex does. We
+	% need XeLaTeX or LuaLaTeX to get the font stuff to work.
+	% So, I created the card back as a standalone document,
+	% comiled it using pdflatex, and import it as an image
+	% to get the card backs to look nice here.
+	\node[inner sep = 0pt] () at (0,0) {\includegraphics{card_back.pdf}};
 	\pic[scale=0.095, transform shape] at (0,0) {head};
 
 }}
@@ -139,23 +146,23 @@
 % Cover page with title, cover art, description, and author
 \center{\setmainfont{Charter}}
 {\footnotesize{Version 0.1}}
-\setmainfont[Scale=2.8]{Clarendon-Bold}
-\begin{center}
-\begin{tabular}{c@{\hspace{0.35ex}}l@{\hspace{0.05ex}}c@{\hspace{0.4ex}}l}
-\huge{H} & \huge{\textcolor{red}{E}} & \huge{A} & \huge{\textcolor{red}{D}} \\[0.5ex]
-\huge{\textcolor{red}{T}} & \huge{R} & \huge{\textcolor{red}{I}} & \huge{P}
-\end{tabular}
-\end{center}
-
-%\setmainfont[Scale=3.125]{Libre Clarendon Wide}
-%{\bfseries
+%\setmainfont[Scale=2.8]{Clarendon-Bold}
 %\begin{center}
-%\begin{tabular}{@{}c@{\hspace{0.375ex}}l@{}c@{\hspace{0.425ex}}l@{}}
+%\begin{tabular}{c@{\hspace{0.35ex}}l@{\hspace{0.05ex}}c@{\hspace{0.4ex}}l}
 %\huge{H} & \huge{\textcolor{red}{E}} & \huge{A} & \huge{\textcolor{red}{D}} \\[0.5ex]
 %\huge{\textcolor{red}{T}} & \huge{R} & \huge{\textcolor{red}{I}} & \huge{P}
 %\end{tabular}
 %\end{center}
-%}
+
+\setmainfont[Scale=3.075, UprightFont={* 162 Bold}]{Libre Clarendon Normal}
+{%\bfseries
+\begin{center}
+\begin{tabular}{@{}c@{\hspace{0.375ex}}l@{}c@{\hspace{0.425ex}}l@{}}
+\Huge{H} & \Huge{\textcolor{red}{E}} & \Huge{A} & \Huge{\textcolor{red}{D}} \\[0.5ex]
+\Huge{\textcolor{red}{T}} & \Huge{R} & \Huge{\textcolor{red}{I}} & \Huge{P}
+\end{tabular}
+\end{center}
+}
 
 \vfill
 
@@ -186,7 +193,7 @@ designed by Michael Purcell
 \setmainfont{Charter}
 \raggedright
 \section{Overview}
-Head Trip is a game for four players that is played with two decks of cards. During the game, each player will portray an \emph{aspect} of the personality of a teenage boy named Bobby.
+Head Trip is a game for four players that is played with two decks of cards. During the game, each player will portray an \emph{aspect} of the personality of a teenage boy named Bobby. They are:
 \begin{playerlist}
 	\item[\jack\clubs\ (The Animal):] represents Bobby's physicality.
 	\item[\redqueen\hearts\ (The Angel):] represents Bobby's compassion.
@@ -194,15 +201,32 @@ Head Trip is a game for four players that is played with two decks of cards. Dur
 	\item[\redace\diamonds\ (The Student):] represents Bobby's curiosity.
 \end{playerlist}
 
-Only one aspect can control Bobby's actions at any given time. That aspect is called the \emph{pilot}.
-So, the players will have to compete for control as Bobby faces a series of challenges.
+%Only one aspect can control Bobby's actions at any given time. That aspect is called the \emph{pilot}.
+%So, the players will have to compete for control as Bobby faces a series of challenges.
+%
+%To determine the outcome of each challenge, the pilot will add a card to the \emph{tableau}. The outcome of the challenge is determined by the rank of that card. 
+% 
+%There are three types of challenges: \clubs\ (physical), \hearts~(social), and \spades\ (mental). Different aspects receive different rewards depending on the outcomes of the various types of challenges.
+%
+%The players with the highest scores at the end of the game are the winners.
 
-To determine the outcome of each challenge, the pilot will add a card to the \emph{tableau}. The outcome of the challenge is determined by the rank of that card. 
- 
-There are three types of challenges: \clubs\ (physical), \hearts~(social), and \spades\ (mental). Different aspects receive different rewards depending on the outcomes of the various types of challenges.
+During the game, Bobby will face a series of challenges.
+There are three types of challenges: \clubs~(physical), \hearts~(social), and \spades~(mental). Different aspects receive different rewards depending on the outcomes of the various types of challenges.
+
+The player whose aspect receives the most rewards as result of Bobby's actions will win the game.
+
+However, only one aspect can control Bobby's actions at any given time. This aspect is called the \emph{pilot}. So, the aspects will have to compete for control to ensure that they Bobby does what they want and that they receive as many rewards as possible.
+
+%When Bobby faces a challenge, the pilot will play a card to the \emph{tableau}. The outcome of the challenge will be determined by the rank of the card that they play. 
 
 
-The players with the highest scores at the end of the game are the winners.
+%The aspect who is controlling Bobby's actions is called the \emph{pilot}. To determine the outcome of a challenge, the pilot will add a card to the \emph{tableau}. The outcome of the challenge will be determined by the rank of that card. 
+%
+%Only one aspect, called the \emph{pilot}, will determine the outcome of each challenge.
+%
+%The outcome of each challenge will be determined by one of the aspects, called the \emph{pilot}. To do so, 
+
+
 
 \subsection{The Cards}
 The \emph{persona deck} is a complete (54 cards) standard deck of playing cards. It consists of:
@@ -225,8 +249,9 @@ It may be useful to use decks with different coloured backs or decks of differen
 
 \subsection{The Tableau}
 The tableau represents Bobby's long-term memory.
-It is the part of the play area where the pilot plays an action card when Bobby faces a challenge.
-It consists of three rows of cards, one for each type of challenge.
+%It is the part of the play area where the pilot plays an action card when Bobby faces a challenge.
+Each time Bobby faces a challenge, the pilot will add an action card to the tableau.
+The tableau consists of three rows of cards, one for each type of challenge.
 
 At the beginning of the game, the tableau is empty. A label card is used to indicate the position of the start of each row as in the following diagram:
 %\smallskip
@@ -263,7 +288,6 @@ At the beginning of the game, the tableau is empty. A label card is used to indi
 \end{figure}
 
 \bigskip
-During the game, cards will be added to the tableau.
 At the end of the game, the state of the tableau will be used to compute the players' scores.
 
 \section{Set Up}
@@ -319,20 +343,14 @@ The players with the highest scores win the game.
 
 
 \section{Example of Play}
-The following is a description of a single round of play. The~Genius is the current pilot.
+The following is a description of a single round of play. This is the ninth round of the game (so eight cards have already been played to the tableau) and The~Angel is the current pilot.
 
 \begin{enumerate}
-	\item The Genius reveals the next challenge card is \four[red]\hearts.
-	\item The Genius decides to stand down.
+	\item The Angel reveals the next challenge card~is~\four[red]\hearts.
+%	\item The Genius decides to stand down.
+	\item The Angel decides not to stand down. The Genius and The Animal object, and agree to spend a recall card to force her to step down.
 	\item The players cast their votes for which aspect should become the next pilot. Their votes are:
-%\begin{playerlistnarrow}
-%\smallskip
-%	\item[\normalfont{The Animal:}] \jack\clubs
-%	\item[\normalfont{The Angel:}] \queen[red]\hearts
-%	\item[\normalfont{The Genius:}] \jack\spades
-%	\item[\normalfont{The Student:}] \jack[red]\diamonds
-%\end{playerlistnarrow}
-%\smallskip
+
 	\begin{table}[h]
 	\centering
 	\begin{tabular}{l r}
@@ -344,21 +362,6 @@ The following is a description of a single round of play. The~Genius is the curr
 	The Student & \jack[red]\diamonds \\ \bottomrule
 	\end{tabular}
 	\end{table}
-%	
-%	\begin{figure}[h]
-%	\centering
-%	\begin{tikzpicture}[scale=0.9]
-%		\pic () at (0,0) {clubscard={\jack}};
-%		\pic () at (22.5mm,0) {heartscard={\queen[red]}};
-%		\pic () at (45mm,0) {spadescard={\jack}};
-%		\pic () at (67.5mm,0) {diamondscard={\jack[red]}};
-%		\node[label=below:{The Animal}, minimum height=12.25mm, minimum width=8.75mm] () at (0,0) {};
-%		\node[label=below:{The Angel}, minimum height=12.25mm, minimum width=8.75mm] () at (22.5mm,0) {};
-%		\node[label=below:{The Genius}, minimum height=12.25mm, minimum width=8.75mm] () at (45mm,0) {};
-%		\node[label=below:{The Student}, minimum height=12.25mm, minimum width=8.75mm] () at (67.5mm,0) {};
-%
-%	\end{tikzpicture}
-%	\end{figure}
 	
 	That is, The Animal receives three votes and The~Angel receives one vote. So, The Animal will be the next pilot.
 	\item The Animal decides to play \five\clubs, which he adds face up to the middle row of the tableau. This yields the partially-completed tableau:
@@ -430,7 +433,7 @@ The following tools were used to create this leaflet:
 \begin{description}[labelindent = 0.25cm, itemsep=0pt, leftmargin=0.25cm]
 	\item[Typesetting\normalfont{:}] XeLaTeX.
 	\item[Diagrams\normalfont{:}] TikZ, GIMP.
-	\item[Fonts\normalfont{:}] Clarendon-Bold, Charter, Card~Characters.
+	\item[Fonts\normalfont{:}] Libre Clarendon, Charter, Card~Characters.
 %	\phantom{\textbf{Fonts}:}\hspace{\itemindent}Card~Characters.
 \end{description}
 \vfill
