@@ -41,8 +41,7 @@
 
 % Setting Fonts
 \usepackage{fontspec}
-\renewfontfamily\sectfont[UprightFont={*-Black}]{Charter}%Clarendon-Bold}
-%\renewfontfamily\sectfont[UprightFont={* 176 Bold}]{Libre Clarendon Wide}
+\renewfontfamily\sectfont[UprightFont={*-Black}]{Charter}
 
 % Macros for symbols that appear on playing cards
 \newfontfamily\cardfont{Card Characters}[Scale=1.0]
@@ -66,7 +65,6 @@
 \DeclareRobustCommand\queen[1][black]{\textcolor{#1}{\cardfont{Q}}}
 \DeclareRobustCommand\king[1][black]{\textcolor{#1}{\cardfont{K}}}
 \DeclareRobustCommand\ace[1][black]{\textcolor{#1}{\cardfont{A}}}
-%\DeclareRobustCommand\joker[1][black]{\textcolor{#1}{\cardfont{\textcolor{red}{J}\textcolor{black}{O}\textcolor{red}{K}\textcolor{black}{E}\textcolor{red}{R}}}}
 \DeclareRobustCommand{\joker}[1][black]{\begin{tikzpicture}[baseline=-0.4em]
 	\path[draw, semithick, #1] (0,0) circle (1.5mm);
 	\path[#1, draw, fill=#1, rounded corners=0.1mm] (90:1.45mm) to (234:1.45mm) to (18:1.45mm) to (162:1.45mm) to (306:1.45mm) to cycle;%
@@ -76,12 +74,6 @@
 \DeclareRobustCommand\redqueen[1][red]{\textcolor{#1}{\cardfont{Q}}}
 \DeclareRobustCommand\redace[1][red]{\textcolor{#1}{\cardfont{A}}}
 
-\newfontfamily\symbolfont{Noto Sans Symbols2}[Scale=1.75]
-\DeclareRobustCommand\aceofspades{{\Huge{\symbolfont\symbol{"1F0A1}}}}
-\DeclareRobustCommand\aceofhearts{{\Huge{\symbolfont\symbol{"1F0B1}}}}
-\DeclareRobustCommand\aceofdiamonds{{\Huge{\symbolfont\symbol{"1F0C1}}}}
-\DeclareRobustCommand\aceofclubs{{\Huge{\symbolfont\symbol{"1F0D1}}}}
-\DeclareRobustCommand\jokercard{{\Huge{\symbolfont\symbol{"1F0CF}}}}
 
 \tikzset{spadescard/.pic={
 	\node[draw, thick, minimum height=12.25mm, minimum width=8.75mm, rounded corners=1mm] (border) at (0,0) {};
@@ -146,16 +138,9 @@
 % Cover page with title, cover art, description, and author
 \center{\setmainfont{Charter}}
 {\footnotesize{Version 0.1}}
-%\setmainfont[Scale=2.8]{Clarendon-Bold}
-%\begin{center}
-%\begin{tabular}{c@{\hspace{0.35ex}}l@{\hspace{0.05ex}}c@{\hspace{0.4ex}}l}
-%\huge{H} & \huge{\textcolor{red}{E}} & \huge{A} & \huge{\textcolor{red}{D}} \\[0.5ex]
-%\huge{\textcolor{red}{T}} & \huge{R} & \huge{\textcolor{red}{I}} & \huge{P}
-%\end{tabular}
-%\end{center}
 
 \setmainfont[Scale=3.075, UprightFont={* 162 Bold}]{Libre Clarendon Normal}
-{%\bfseries
+{
 \begin{center}
 \begin{tabular}{@{}c@{\hspace{0.375ex}}l@{}c@{\hspace{0.425ex}}l@{}}
 \Huge{H} & \Huge{\textcolor{red}{E}} & \Huge{A} & \Huge{\textcolor{red}{D}} \\[0.5ex]
@@ -163,6 +148,14 @@
 \end{tabular}
 \end{center}
 }
+
+\vfill
+
+\setmainfont[Scale=1.5]{Charter}
+\begin{center}
+\LARGE
+Player's\phantom{y}Guide
+\end{center}
 
 \vfill
 
@@ -181,11 +174,8 @@
 
 \setmainfont[Scale=1.5]{Charter}
 \begin{center}
-A card game for four players
-
-\smallskip
-
-designed by Michael Purcell
+\LARGE
+Michael\phantom{y}Purcell
 \end{center}
 
 \newpage
@@ -193,7 +183,7 @@ designed by Michael Purcell
 \setmainfont{Charter}
 \raggedright
 \section{Overview}
-Head Trip is a game for four players that is played with two decks of cards. During the game, each player will portray an \emph{aspect} of the personality of a teenage boy named Bobby. They are:
+Head Trip is a game for four players that is played with two standard decks of playing cards. Each player will portray an \emph{aspect} of the personality of a teenage boy named Bobby: 
 \begin{playerlist}
 	\item[\jack\clubs\ (The Animal):] represents Bobby's physicality.
 	\item[\redqueen\hearts\ (The Angel):] represents Bobby's compassion.
@@ -201,32 +191,12 @@ Head Trip is a game for four players that is played with two decks of cards. Dur
 	\item[\redace\diamonds\ (The Student):] represents Bobby's curiosity.
 \end{playerlist}
 
-%Only one aspect can control Bobby's actions at any given time. That aspect is called the \emph{pilot}.
-%So, the players will have to compete for control as Bobby faces a series of challenges.
-%
-%To determine the outcome of each challenge, the pilot will add a card to the \emph{tableau}. The outcome of the challenge is determined by the rank of that card. 
-% 
-%There are three types of challenges: \clubs\ (physical), \hearts~(social), and \spades\ (mental). Different aspects receive different rewards depending on the outcomes of the various types of challenges.
-%
-%The players with the highest scores at the end of the game are the winners.
-
 During the game, Bobby will face a series of challenges.
-There are three types of challenges: \clubs~(physical), \hearts~(social), and \spades~(mental). Different aspects receive different rewards depending on the outcomes of the various types of challenges.
+There are three types of challenges: \clubs~(physical), \hearts~(social), and \spades~(mental). Different aspects receive different rewards depending on how Bobby responds to each challenge.
 
 The player whose aspect receives the most rewards as result of Bobby's actions will win the game.
 
 However, only one aspect can control Bobby's actions at any given time. This aspect is called the \emph{pilot}. So, the aspects will have to compete for control to ensure that they Bobby does what they want and that they receive as many rewards as possible.
-
-%When Bobby faces a challenge, the pilot will play a card to the \emph{tableau}. The outcome of the challenge will be determined by the rank of the card that they play. 
-
-
-%The aspect who is controlling Bobby's actions is called the \emph{pilot}. To determine the outcome of a challenge, the pilot will add a card to the \emph{tableau}. The outcome of the challenge will be determined by the rank of that card. 
-%
-%Only one aspect, called the \emph{pilot}, will determine the outcome of each challenge.
-%
-%The outcome of each challenge will be determined by one of the aspects, called the \emph{pilot}. To do so, 
-
-
 
 \subsection{The Cards}
 The \emph{persona deck} is a complete (54 cards) standard deck of playing cards. It consists of:
@@ -249,12 +219,11 @@ It may be useful to use decks with different coloured backs or decks of differen
 
 \subsection{The Tableau}
 The tableau represents Bobby's long-term memory.
-%It is the part of the play area where the pilot plays an action card when Bobby faces a challenge.
 Each time Bobby faces a challenge, the pilot will add an action card to the tableau.
 The tableau consists of three rows of cards, one for each type of challenge.
 
 At the beginning of the game, the tableau is empty. A label card is used to indicate the position of the start of each row as in the following diagram:
-%\smallskip
+
 \begin{figure}[h]\centering
 \begin{tikzpicture}[scale=0.9]
 	\pic[rotate=90, transform shape] () at (0,32mm) {clubscard={\ace}};
@@ -347,7 +316,6 @@ The following is a description of a single round of play. This is the ninth roun
 
 \begin{enumerate}
 	\item The Angel reveals the next challenge card~is~\four[red]\hearts.
-%	\item The Genius decides to stand down.
 	\item The Angel decides not to stand down. The Genius and The Animal object, and agree to spend a recall card to force her to step down.
 	\item The players cast their votes for which aspect should become the next pilot. Their votes are:
 
@@ -406,25 +374,19 @@ The players can agree to allow players to add two cards to the tableau when the 
 
 If the sum of the ranks of the two cards meets or exceeds the rank of the challenge card, then Bobby succeeds. Otherwise, Bobby fails.
 
+\vfill
+
 \section{Acknowledgements}
 The following people made significant contributions throughout the design process:
 \vspace{-1.75ex}
 \begin{multicols}{2}
 \begin{itemize}[itemsep=0pt, topsep=0pt, partopsep=0pt]
-%  \item Keydan Bruce
-%  \item Farzana Choudhury
-%  \item Michael Cromer
   \item Dannielle Harden
   \item Andrew Hellyer
-%  \item Sarah Hewat
-%  \item Scott Joblin
   \item David McKenzie
   \item Paul Murray
   \item Kira Purcell
   \item Luke Purcell
-%  \item Will Purcell
-%  \item Jo Stephenson
-%  \item Brett Witty
 \end{itemize}
 \end{multicols}
 
@@ -434,9 +396,10 @@ The following tools were used to create this leaflet:
 	\item[Typesetting\normalfont{:}] XeLaTeX.
 	\item[Diagrams\normalfont{:}] TikZ, GIMP.
 	\item[Fonts\normalfont{:}] Libre Clarendon, Charter, Card~Characters.
-%	\phantom{\textbf{Fonts}:}\hspace{\itemindent}Card~Characters.
 \end{description}
-\vfill
+
+\medskip
+
 \textbf{Contact}: \href{mailto:head.trip.card.game@gmail.com}{head.trip.card.game@gmail.com}
 
 \smallskip
@@ -444,7 +407,5 @@ The following tools were used to create this leaflet:
 \begin{tabular}{@{}m{\textwidth-\widthof{\Huge{\doclicenseIcon}}}@{}m{\widthof{\Huge{\doclicenseIcon}}}@{}}
 \footnotesize{This work is licensed under a Creative Commons\newline ``Attribute 4.0 International'' license.} & \Huge{\doclicenseIcon} \\
 \end{tabular}
-%\section{Acknowledgements}
-%Test
-%
+
 \end{document}
