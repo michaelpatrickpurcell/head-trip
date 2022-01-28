@@ -24,13 +24,14 @@
 
 \setlist[enumerate]{noitemsep, topsep=0pt, leftmargin=0.75cm, itemsep=\smallskipamount, labelindent=0.25cm}
 
-\setlist[description]{noitemsep, topsep=0pt, labelindent=0.25cm, leftmargin=0.0cm, itemsep=\smallskipamount, font=\normalfont\bfseries}
+\setlist[description]{noitemsep, topsep=0pt, labelindent=0.25cm, leftmargin=0.75cm, itemsep=\smallskipamount, font=\normalfont\bfseries}
 
 \newlist{cardlist}{description}{1}
 \newlist{playerlist}{description}{1}
 \newlist{playerlistnarrow}{description}{1}
 \newlist{personadecklist}{description}{1}
 \newlist{auxiliarydecklist}{description}{1}
+\newlist{challengetypelist}{description}{1}
 
 \setlist[cardlist]{noitemsep, topsep=0pt, labelindent=0.25cm, leftmargin= 0.5cm,  labelsep=\widthof{\space}, font=\normalfont}
 
@@ -41,6 +42,8 @@
 \setlist[personadecklist]{noitemsep, topsep=0pt, labelindent=0.25cm, leftmargin= 0.5cm,  labelsep=\widthof{\space}, font=\normalfont\bfseries, labelwidth=\widthof{\textbf{Voting\ Cards\ \ (16)}}}
 
 \setlist[auxiliarydecklist]{noitemsep, topsep=0pt, labelindent=0.25cm, leftmargin= 0.5cm,  labelsep=\widthof{\space}, font=\normalfont\bfseries, labelwidth=\widthof{\textbf{Challenge\ Cards\ \ (27)}}}
+
+\setlist[challengetypelist]{noitemsep, topsep=0pt, labelindent=0.25cm, leftmargin= 0.5cm,  labelsep=\widthof{\space}, font=\normalfont, labelwidth=\widthof{\clubs\ (Physcial):\ }}
 
 % Setting Fonts
 \usepackage{fontspec}
@@ -198,65 +201,202 @@ Michael\phantom{y}Purcell
 \setmainfont{Charter}
 \raggedright
 \section{Overview}
+Head Trip, as described in the Player's Guide, is a competitive card game for four players.
+In that version of the game, each player portrays one aspect of the personality of a teenage boy named Bobby.
+These aspects compete with one another to control Bobby's actions as he faces a series of challenges.
+
+The Headmaster's Guide describes an additional role for an additional player, the \emph{Headmaster}.
+Rather than portraying an aspect of Bobby's personality, the Headmaster's job is to provide narrative context for everything that happens during the game.
+
+This transforms Head Trip into a semi-cooperative roleplaying game in which the Headmaster helps the other players tell a story about Bobby's experiences.
+
+These rules assume that the reader is familiar with the game described in the Player's Guide.
+
+\section{The Cards}
+In this version of the game, the players will use the \emph{Headmaster's deck} instead of the auxiliary deck described in the Player's Guide.
+The Headmaster's deck is a complete (54-cards) standard deck of playing cards. It consists of:
+
+\begin{auxiliarydecklist}
+	\item[Challenge Cards\hfill\normalfont{(27):}] \two\ \textendash\ \ten\ of \clubs, \hearts, \spades.
+	\item[Aspect Cards\hfill\normalfont{(4):}] \jack\clubs, \queen[red]\hearts[red], \king\spades, \ace[red]\diamonds[red].
+	\item[Label Cards\hfill\normalfont{(3):}] \ace\clubs, \ace[red]\hearts, \ace\spades.
+	\item[Location Cards\hfill\normalfont{(9):}] \redtwo\ \textendash\ \redten\ of \diamonds.
+	\item[Character Cards\hfill\normalfont{(11):}] remaining \jack, \queen, \king, \joker\ cards.
+\end{auxiliarydecklist} 
+
+Notice that the challenge cards, aspect cards, and label cards are the same as those that comprise the auxiliary deck. The setting cards are not used in the game described in the Player's Guide.
+
+So, this version of the game can still be played with two standard decks of playing cards. The Headmaster will use cards from the Headmaster's deck while the other players will use cards from the persona deck. 
+
 
 \newpage
+\subsection{Challenge Cards}
+Each challenge card represents a challenge that Bobby faces during the game. Every challenge has both a type and a difficulty.
 
-\section{Setting Cards}
-Test
+The type of a challenge represents the skills that Bobby will need to employ to successfully face that challenge. There are three types of challenge, each of which requires different skills:
+\begin{challengetypelist}[itemsep=0pt]
+	\item[\clubs\ (Physical):] requires athleticism or aggression. 
+	\item[\hearts\ (Social):] requires empathy or insight.
+	\item[\spades\ (Mental):] requires creativity or analysis.
+\end{challengetypelist}
 
-\subsection{Locations}
-Each challenge that Bobby faces can occur at one of these locations:
-\begin{cardlist}
+The difficulty of a challenge is represented by the rank of its challenge card. The higher the rank, the more difficult the challenge.
+
+When Bobby faces a challenge, the pilot will play an action card. Bobby succeeds if the rank of that action card meets or exceeds that of the challenge card.
+
+\subsection{Location Cards}
+
+Each location card represents a place where Bobby might be found on a school day. With the exception of Bobby's House (where the story might begin or end) and the School Bus, all of these locations are different rooms in Bobby's school. 
+\vspace{-1.75ex}
+\begin{multicols}{2}
+\begin{cardlist}[itemsep=0pt, topsep=0pt, partopsep=0pt]
   \item[\redtwo\diamonds:] Bobby's House
   \item[\redthree\diamonds:] School Bus
   \item[\redfour\diamonds:] Classroom
   \item[\redfive\diamonds:] Cafeteria
   \item[\redsix\diamonds:] Principal's Office
-  \item[\redseven\diamonds:] School Hallway
+  \item[\redseven\diamonds:] Hallway
   \item[\redeight\diamonds:] Library
   \item[\rednine\diamonds:] Auditorium
   \item[\redten\diamonds:] Locker Room
+  \item[]
 \end{cardlist}
+\end{multicols}
 
-\subsection{Non-player Characters}
-The challenges that Bobby faces usually involve other people as well.
-\begin{cardlist}
+\subsection{Character Cards}
+Each character card represents a person that Bobby might encounter at school. These include other kids, family members, school faculty, and other adults.
+\vspace{-1.75ex}
+\begin{multicols}{2}
+\begin{cardlist}[itemsep=0pt, topsep=0pt, partopsep=0pt]
   \item[\redjack\diamonds:] Bully
   \item[\redqueen\diamonds:] Crush
   \item[\redking\diamonds:] Friend
-\medskip
   \item[\queen\clubs:] Neighbour
-  \item[\king\clubs:] Stranger
-\medskip
-  \item[\redjack\hearts:] Sibling
-  \item[\redking\hearts:] Parent
-\medskip
+  \item[\king\clubs:] Janitor
   \item[\jack\spades:] Principal
   \item[\queen\spades:] Teacher
+  \item[\redjack\hearts:] Sibling
+  \item[\redking\hearts:] Parent
+  \item[\hspace{0.19cm}\joker:] Stranger
 \end{cardlist}
+\end{multicols}
+
+\newpage
+\section{Game Play}
+The game takes place over a sequence of rounds. During each round, the Headmaster should:
+\begin{enumerate}
+	\item Establish the setting for the current challenge. 
+	\item Choose a challenge card for the pilot to reveal. The  other players will then elect a pilot. That pilot will then play an action card to the tableau.
+	\item React to the action card played by the pilot.
+\end{enumerate}
+
+\subsection{Establishing the Setting}
+The Headmaster should describe the location where the current challenge will take place and any non-player characters who might be involved.
+
+The location cards and character cards can be used as a menu of possible setting elements that the Headmaster can choose from or as a way to generate random setting elements.
+
+Each setting should present Bobby with a situation where the outcome  of the challenge is uncertain and where Bobby stands to benefit if he succeeds. 
+
+
+\subsection{Choosing a Challenge Card}
+The Headmaster should choose a challenge card appropriate for the setting of each challenge.
+
+Challenge cards should not be reused.  Once Bobby has faced a challenge represented by a given challenge card, that card is unavailable for use in future challenges and should be discarded.
+  
+
+\subsection{Reacting to an Action Card}
+The Headmaster should work with the pilot to describe how Bobby faces each challenge.
+
+This description should incorporate the type and difficulty of the challenge, the rank of the pilot's action card, and whether Bobby succeeds or fails.
+
+Bobby is always the one who is facing each challenge, not the pilot. The difference between the aspects is their motivations rather than their capabilities.
+
 
 \newpage
 
-\section{Conclusion}
-test
+\section{Sample Adventure}
+The following is a series of challenges that the Headmaster can use as a starting point for their first story. The Headmaster should modify the challenges as necessary in response to the other players' actions.
+
+\rule{\textwidth}{1pt}
+\begin{description}[topsep=0pt, labelindent=0pt, leftmargin=0.0cm]	
+	\item[Location 1\normalfont{:}] \redtwo\diamonds\ - Bobby's Bedroom
+	\smallskip
+	\begin{description}[labelindent = 0.5cm, leftmargin=0.75cm]
+		\item[Challenge 1a\normalfont{:}] \three\clubs\ - Hit the snooze alarm and go back to sleep. Bobby's exhausted.
+		\item[Challenge 1b\normalfont{:}] \redfour\hearts\ - Convince Bobby's mom that he won't be late for school. Again.
+	\end{description}
+
+	\rule{\textwidth}{1pt}
+
+	\item[Location 2\normalfont{:}] \redthree\diamonds\ - Bus Stop
+	\smallskip
+	\begin{description}[labelindent = 0.5cm, leftmargin=0.75cm]
+		\item[Challenge 2a\normalfont{:}] \five\spades\ - Figure out a shortcut that will let Bobby get to school on time. 
+	\end{description}
+	
+	\rule{\textwidth}{1pt}
+	
+	\item[Location 3\normalfont{:}] \redfour\diamonds\ - Chemistry Class
+	\smallskip
+	\begin{description}[labelindent = 0.5cm, leftmargin=0.75cm]
+		\item[Challenge 3a\normalfont{:}] \redfive\hearts\ - Meet the new girl. Her name is Annie. Try to make a good first impression.
+	\end{description}
+	
+	\rule{\textwidth}{1pt}
+
+	
+	\item[Location 4\normalfont{:}] \redfive\diamonds\ - Cafeteria
+	\smallskip
+	\begin{description}[labelindent = 0.5cm, leftmargin=0.75cm]
+		\item[Challenge 4a\normalfont{:}] \redeight\hearts\ - Bullies are picking on Annie in the lunch line. Ask them to leave her alone.
+		\item[Challenge 4b\normalfont{:}] \six\clubs\ - The bullies pushed Bobby?!? That's it, this means war. Ramming speed! 
+	\end{description}
+	
+	\rule{\textwidth}{1pt}
+	
+	\item[Location 5\normalfont{:}] \redsix\diamonds\ - Principal's Office
+	\smallskip
+	\begin{description}[labelindent = 0.5cm, leftmargin=0.75cm]
+		\item[Challenge 5a\normalfont{:}] \seven\spades\ - The principal just asked Bobby what he thinks an appropriate punishment might be. Answer carefully.
+	\end{description}
+	
+	\rule{\textwidth}{1pt}
+	
+	\item[Location 6\normalfont{:}] \redseven\diamonds\ - Hallway
+	\smallskip
+	\begin{description}[labelindent = 0.5cm, leftmargin=0.75cm]
+		\item[Challenge 6a\normalfont{:}] \redten\hearts\ - Ask Annie to go out sometime after school. Maybe to the mall?
+	\end{description}
+	
+	\rule{\textwidth}{1pt}
+
+\end{description}
+\medskip
+None of the players are likely to have used all of their actions cards yet. The game (probably) isn't over! From here, the Headmaster should direct the story wherever the players seem to be most interested.
+
+\newpage
+\section{Variants}
+Most of the rules of the game are independent of the setting elements. So, it is easy to modify the game to tell different kinds of stories.
+
+\subsection{Other Settings}
+Some players may want to explore Bobby's life outside of school. 
+
+If the Headmaster is confident in their ability to improvise then they can simply invent new setting elements on the fly as required.
+
+Otherwise, they can make their own lists of what the various location cards and character cards represent.
+
+\subsection{Other People}
+Some players may want to portray the aspects of the personality of someone other than Bobby.
+
+In some cases, for example if the players want to play as aspects of Annie's personality, only names need to be changed and the setting elements can be left as is.
+
+In other cases, the default setting won't make sense for the new person and the Headmaster will have to modify the setting accordingly.
 
 \vfill
 
 \section{Acknowledgements}
-The following people made significant contributions throughout the design process:
-\vspace{-1.75ex}
-\begin{multicols}{2}
-\begin{itemize}[itemsep=0pt, topsep=0pt, partopsep=0pt]
-  \item Dannielle Harden
-  \item Andrew Hellyer
-  \item David McKenzie
-  \item Paul Murray
-  \item Kira Purcell
-  \item Luke Purcell
-\end{itemize}
-\end{multicols}
+The design of Head Trip has been vastly improved by the influence of ideas and mechanics from other games and the feedback provided by playtesters throughout the design process.
 
-\subsection{Design Tools}
 The following tools were used to create this leaflet:
 \begin{description}[labelindent = 0.25cm, itemsep=0pt, leftmargin=0.25cm]
 	\item[Typesetting\normalfont{:}] XeLaTeX.
