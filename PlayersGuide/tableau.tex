@@ -1,0 +1,54 @@
+\section{The Tableau}
+The tableau represents Bobby's long-term memory.
+Each time Bobby faces a challenge, the pilot will add an action card to the tableau.
+The tableau consists of three rows of cards, one for each type of challenge.
+
+At the beginning of the game, the tableau is empty. A label card is used to indicate the position of the start of each row as in the following diagram:
+
+\begin{figure}[h]\centering
+\begin{tikzpicture}[scale=0.9]
+	\pic[rotate=90, transform shape] () at (0,32mm) {clubscard={\ace}};
+	\pic () at (15mm, 32mm) {dottedcardoutline};
+	\pic () at (27mm, 32mm) {dottedcardoutline};
+	\pic () at (39mm, 32mm) {dottedcardoutline};
+	\pic () at (51mm, 32mm) {dottedcardoutline};
+	\node[draw, fill=black, circle, inner sep=0.5pt] () at (59mm,32mm) {};
+	\node[draw, fill=black, circle, inner sep=0.5pt] () at (61mm,32mm) {};
+	\node[draw, fill=black, circle, inner sep=0.5pt] () at (63mm,32mm) {};
+
+	\pic[rotate=90, transform shape] () at (0,16mm) {heartscard={\redace}};
+	\pic () at (15mm, 16mm) {dottedcardoutline};
+	\pic () at (27mm, 16mm) {dottedcardoutline};
+	\pic () at (39mm, 16mm) {dottedcardoutline};
+	\pic () at (51mm, 16mm) {dottedcardoutline};
+	\node[draw, fill=black, circle, inner sep=0.5pt] () at (59mm,16mm) {};
+	\node[draw, fill=black, circle, inner sep=0.5pt] () at (61mm,16mm) {};
+	\node[draw, fill=black, circle, inner sep=0.5pt] () at (63mm,16mm) {};
+
+	\pic[rotate=90, transform shape] () at (0,0) {spadescard={\ace}};
+	\pic () at (15mm, 0) {dottedcardoutline};
+	\pic () at (27mm, 0) {dottedcardoutline};
+	\pic () at (39mm, 0) {dottedcardoutline};
+	\pic () at (51mm, 0) {dottedcardoutline};
+	\node[draw, fill=black, circle, inner sep=0.5pt] () at (59mm,0) {};
+	\node[draw, fill=black, circle, inner sep=0.5pt] () at (61mm,0) {};
+	\node[draw, fill=black, circle, inner sep=0.5pt] () at (63mm,0) {};
+\end{tikzpicture}
+\caption*{An empty tableau.}
+\end{figure}
+
+\bigskip
+At the end of the game, the state of the tableau will be used to compute the players' scores.
+
+\section{Set Up}
+To prepare to play the game the players should:
+\begin{enumerate}
+\item Place the label cards face up in the middle of the play area to indicate the location of the tableau.
+\item Shuffle the challenge cards and place them face down near the tableau.
+\item Deal an aspect card to each player. The players should place their aspect cards face up in the play area in front of themselves.
+\item Collect all of the voting cards of the same suit as their aspect cards. The players should place their voting cards face down near their aspect card.
+\item Collect all of the action cards of the same suit as their aspect cards.
+\item Place the recall cards face up near the tableau. 
+\end{enumerate}
+The Student is the starting pilot.
+

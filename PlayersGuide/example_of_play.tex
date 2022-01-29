@@ -1,0 +1,48 @@
+\section{Example of Play}
+The following is a description of a single round of play. This is the ninth round of the game (so eight cards have already been played to the tableau) and the~Angel is the current pilot.
+
+\begin{enumerate}
+	\item The Angel reveals the next challenge card~is~\four[red]\hearts.
+	\item The Angel decides not to stand down. The Genius and the Animal object, and agree to spend a recall card to force her to step down.
+	\item The players cast their votes for which aspect should become the next pilot. Their votes are:
+
+	\begin{table}[h]
+	\centering
+	\begin{tabular}{l r}
+	\toprule
+	Aspect & Vote \\ \midrule
+	The Animal & \jack\clubs \\
+	The Angel  & \queen[red]\hearts \\
+	The Genius & \jack\spades \\
+	The Student & \jack[red]\diamonds \\ \bottomrule
+	\end{tabular}
+	\end{table}
+	
+	That is, the Animal receives three votes and the~Angel receives one vote. So, the Animal will be the next pilot.
+	\item The Animal decides to play \five\clubs, which he adds face up to the middle row of the tableau. This yields the partially-completed tableau:
+	
+\begin{figure}[h]\centering
+\begin{tikzpicture}[scale=0.9]
+	\pic[rotate=90, transform shape] () at (0,32mm) {clubscard={\ace}};
+	\pic () at (15mm, 32mm) {diamondscard={\six[red]}};
+	\pic () at (27mm, 32mm) {spadescard={\eight}};
+	\pic () at (39mm, 32mm) {cardback};
+
+	\pic[rotate=90, transform shape] () at (0,16mm) {heartscard={\redace}};
+	\pic () at (15mm, 16mm) {cardback};
+	\pic () at (27mm, 16mm) {heartscard={\seven[red]}};
+	\pic () at (39mm, 16mm) {heartscard={\five[red]}};
+	\pic () at (51mm, 16mm) {clubscard={\five}};
+
+	\pic[rotate=90, transform shape] () at (0,0) {spadescard={\ace}};
+	\pic () at (15mm, 0) {clubscard={\eight}};
+	\pic () at (27mm, 0) {cardback};
+\end{tikzpicture}
+\caption*{A partially-completed tableau.}
+\end{figure}
+
+\bigskip
+After this round the Student and the~Angel both have three points, the Animal has two points, and the Genius has one point.
+
+\end{enumerate}
+
