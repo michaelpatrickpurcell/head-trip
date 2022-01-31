@@ -6,10 +6,13 @@ The first way to play is as a four-player competitive card game. During the game
 The second way to play is as a five-player semi-cooperative roleplaying game. During the game, four of the players will play as in the four-player competitive card game version described above.  The fifth player, however, will play as the Headmaster. The Headmaster's job is to provide narrative context for what happens in the game by working with the other players to tell a story about Bobby's experiences.
 
 ## Downloads
-See the [Player's Guide](players_guide.pdf) for a version of the rules for players that can be printed and folded to create a tri-fold leaflet.
+The Player's Guide provides rules for the four-player competitive card game.
+  - The [Player's Guide (leaflet)](players_guide_leaflet.pdf) is a version of the rules that can be printed and folded to create a tri-fold leaflet.
+  - The [Player's Guide (pages)](players_guide_pages.pdf) is a version that is designed to be read on a screens.
 
-See the [Headmaster's Guide](headmasters_guide.pdf) for a version of the rules for the Headmaster that can be printed and folded to create a tri-fold leaflet.
-
+The Headmaster's Guide provides rules for the five-player semi-cooperative roleplaying game.
+  - The [Headmaster's Guide (leaflet)](headmasters_guide_leaflet.pdf) is a version that can be printed and folded to create a tri-fold leaflet.
+  - The [Headmaster's Guide (pages)](headmasters_guide_pages.pdf) is a version that is designed to be read on screens.
 
 ## Inspirations
   - __Cranium Command__: A theme park attraction that presented in the Wonders of Life pavilion at Walt Disney World Resort's EPCOT theme park from 1989 -- 2007.
